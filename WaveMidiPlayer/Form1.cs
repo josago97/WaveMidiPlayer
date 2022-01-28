@@ -47,33 +47,6 @@ namespace WaveMidiPlayer
             };
 
             UpdatePlayPauseButton();
-
-
-
-
-
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Rafal - The Ride.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\AWholeNewWorld-Aladdin.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Alejandro-LadyGaga.mid";
-
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\TestDrive-ComoEntrenarATuDragon.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Rasputin - Boney M.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Fast Car - Tracy Chapman.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Every breath you take - The Police.mid";
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Navajita plateá - Noches de bohemia.mid";
-
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Cyndi Lauper - Time After Time.mid";
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Don't You Want Me - Human League.mid";
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Canon en C - Johann Pachelbel.mid";
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Aha_-_Take_On_Me.mid";
-            /*_filePathTextBox.Text = @"D:\JOSE\Downloads\The Greatest Showman - A Million Dream.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Navajita plateá - Noches de bohemia.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Soulsister-TheWayToYourHeart.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\Every breath you take - The Police.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\NeverendingStory.mid";
-            _filePathTextBox.Text = @"D:\JOSE\Downloads\King-Years&Years.mid";*/
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Running_Scared_-_Ell__Nikki_2011.mid";
-            //_filePathTextBox.Text = @"D:\JOSE\Downloads\Running_Scared_-_Ell__Nikki_2011_-_Piano__Voice.mid";
         }
 
         private void OnExamineButtonClicked(object sender, EventArgs e)
