@@ -170,9 +170,11 @@ namespace WaveMidiPlayer
                     data.AddRange(buffer.Take(bytesReaded));
                 }
 
+                int baseLog = 2;
                 for (int i = 0; i < data.Count; i++)
                 {
-                    data[i] *= (float)Math.Log2(2 - i / (float)data.Count);
+                    double x = i / (double)data.Count;
+                    data[i] *= (float)Math.Log(baseLog - (baseLog - 1) * x, baseLog);
                 }
 
                 return data.ToArray();
